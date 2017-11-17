@@ -1,0 +1,41 @@
+/**
+ * IoT Challenge: GoHealthy application
+ * =========================
+ * 
+ * The SQL code here will continuously transform sensor/mobile streaming data
+ * when your application is running.
+ *
+ *  
+ *  
+ */
+ 
+ 
+ -- Create an output stream with four columns, which is used to send IoT data to the destination
+--CREATE OR REPLACE STREAM "DESTINATION_SQL_BASIC_STREAM" (dateTime TIMESTAMP, deviceId VARCHAR(64), emfValue DOUBLE);
+
+-- Create a pump that continuously selects from the source stream and inserts it into the output data stream
+--CREATE OR REPLACE PUMP "BASIC_STREAM_PUMP" AS INSERT INTO "DESTINATION_SQL_BASIC_STREAM"
+
+-- Filter specific columns from the source stream
+--SELECT STREAM "dateTime", "deviceID",  "emfValue" FROM "SOURCE_SQL_STREAM_001";
+
+-- Create a second output stream with fours columns, which is used to send aggregated min/max data to the destination
+CREATE OR REPLACE STREAM "DESTINATION_SQL_AGGREGATE_STREAM" (sensorId VARCHAR(64), dateTime TIMESTAMP, highestEMF DOUBLE, lowestEMF DOUBLE);
+
+-- Create a pump that continuously selects from a source stream 
+CREATE OR REPLACE PUMP "AGGREGATE_STREAM_PUMP" AS INSERT INTO "DESTINATION_SQL_AGGREGATE_STREAM"
+
+-- Extract time in minutes, plus the highest and lowest value of EMF in that minute, into the destination aggregate stream, aggregated per minute
+SELECT STREAM "SOURCE_SQL_STREAM_001"."deviceID", FLOOR("SOURCE_SQL_STREAM_001".rowTime TO MINUTE) AS "dateTime", MAX("emfValue") AS "highestEMF", MIN("emfValue") AS "lowestEMF" FROM "SOURCE_SQL_STREAM_001" GROUP BY FLOOR("SOURCE_SQL_STREAM_001".rowTime TO MINUTE),"SOURCE_SQL_STREAM_001"."deviceID";
+
+-----------------------------------------------------------------------------------------------------------------
+-- SECOND ANALYSIS BASED ON STANDARD DEVIATION
+
+CREATE OR REPLACE STREAM "EMF_ANALYSIS" ("sensorId" VARCHAR(64),"emfValue" DOUBLE, "emf_avg" DOUBLE, "emf_std" DOUBLE);
+CREATE OR REPLACE PUMP "EMF_PUMP" AS INSERT INTO "EMF_ANALYSIS" SELECT STREAM "deviceID" AS "sensorId","emfValue", AVG("emfValue")  OVER SLIDING_WINDOW AS "emf_avg", STDDEV_POP("emfValue") OVER SLIDING_WINDOW AS "emf_std" FROM "SOURCE_SQL_STREAM_001"
+WINDOW SLIDING_WINDOW AS (PARTITION BY "SOURCE_SQL_STREAM_001"."deviceID" RANGE INTERVAL '30' MINUTE PRECEDING);
+
+-- select the exceptional EMF values for the destination stream
+CREATE OR REPLACE STREAM "EXCEP_EMF_DESTINATION_STREAM" ("sensorId" VARCHAR(64),"emf" DOUBLE, "emf_avg" DOUBLE, "emf_std" DOUBLE);
+CREATE OR REPLACE PUMP "EXCEPTION_EMF_PUMP" AS INSERT INTO "EXCEP_EMF_DESTINATION_STREAM" SELECT STREAM * FROM "EMF_ANALYSIS" WHERE "emfValue" < ("emf_avg"-2*"emf_std") OR "emfValue" > ("emf_avg"+2*"emf_std");
+
