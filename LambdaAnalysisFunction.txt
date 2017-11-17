@@ -1,0 +1,57 @@
+from __future__ import print_function
+
+import base64
+import json
+import boto3
+import locale
+
+print('Loading function')
+iot = boto3.client('iot-data',region_name='us-east-1');
+
+def lambda_handler(event, context):
+
+    for record in event['Records']:
+          print(record['eventID'])
+    #Load the data from Kinesis stream (in json format with u')
+    payloadjson = record['kinesis']
+    #Load the data as json
+    message = json.dumps(payloadjson)
+    payloademftextarray = json.loads(message)
+    #print('data')
+    print(payloademftextarray['data'])
+    payloademftext = base64.b64decode(payloademftextarray['data'])
+    #print(payloademftext)
+    #Load the Analytic data sent to Kinesis stream from Kinesis Analytic
+    sensorarray = json.loads(payloademftext)
+    sensorEMFValue = str(sensorarray['emf'])
+    #sensorDateTime = sensorarray['DATETIME']
+    sensorId = sensorarray['sensorId']
+    sensorAvg = sensorarray['emf_avg']
+    sensorStd = sensorarray['emf_std']
+   
+    if(float(sensorAvg)< float(sensorarray['emf'])):
+        strAlertLevel = 'Warning, EMF has exceptional high value:'
+    elif (float(sensorAvg) > sensorarray['emf']):
+        strAlertLevel = 'Good, You are going away from place with high EMF value:'
+    else:
+        strAlertLevel = 'Neutral, no concern about the EMF value:'
+    #Warning levels code here: based on EMF scale -> Slight concern, Concern
+    #sensorarray['HIGHESTEMF']
+    
+    #Do custom processing on the payload here
+    datamessage = {}
+    datamessage['alertMessage'] = strAlertLevel + sensorEMFValue
+    #datamessage['DateTime'] = sensorDateTime
+    datamessage['SENSORID'] = sensorId
+    datamessage['EMF_AVG'] = sensorAvg
+    datamessage['EMF_STD'] = sensorStd
+    
+    print(datamessage)
+    response = iot.publish(
+            topic='/device/mobile/alert',qos=0,
+            payload=json.dumps(datamessage)
+    ) 
+
+    print('Successfully processed {} records.'.format(len(event['Records'])))
+
+    
