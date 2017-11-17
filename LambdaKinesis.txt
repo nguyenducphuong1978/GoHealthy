@@ -1,0 +1,42 @@
+from __future__ import print_function
+
+import base64
+import json
+import boto3
+
+print('Loading function')
+iot = boto3.client('iot-data',region_name='us-east-1');
+
+def lambda_handler(event, context):
+
+    for record in event['Records']:
+          print(record['eventID'])
+    #Load the data from Kinesis stream (in json format with u')
+    payloadjson = record['kinesis']
+    #Load the data as json
+    message = json.dumps(payloadjson)
+    payloademftextarray = json.loads(message)
+    payloademftext = base64.b64decode(payloademftextarray['data'])
+    print(payloademftext)
+    #Load the Analytic data sent to Kinesis stream from Kinesis Analytic
+    sensorarray = json.loads(payloademftext)
+    sensorEMFValue = str(sensorarray['HIGHESTEMF'])
+    sensorDateTime = sensorarray['DATETIME']
+    sensorId = sensorarray['SENSORID']
+   
+    #Warning levels code here: based on EMF scale -> Slight concern, Concern
+    #sensorarray['HIGHESTEMF']
+    
+    #Do custom processing on the payload here
+    datamessage = {}
+    datamessage['alertMessage'] = 'Warning, EMF is overvalue:' + sensorEMFValue
+    datamessage['DateTime'] = sensorDateTime
+    datamessage['SENSORID'] = sensorId
+    
+    print(datamessage)
+    response = iot.publish(
+            topic='/device/mobile/alert',qos=0,
+            payload=json.dumps(datamessage)
+    ) 
+
+  
