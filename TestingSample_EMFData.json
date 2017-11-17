@@ -1,0 +1,1106 @@
+{
+  "messages": [
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 216.24638725305908,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:46"
+      },
+      "qos": 0,
+      "timestamp": 1510876608794,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 210.57025438378042,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:48"
+      },
+      "qos": 0,
+      "timestamp": 1510876610186,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 217.1639285770084,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:49"
+      },
+      "qos": 0,
+      "timestamp": 1510876611015,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 200.4444183402222,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:50"
+      },
+      "qos": 0,
+      "timestamp": 1510876612147,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 193.65372608085804,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:51"
+      },
+      "qos": 0,
+      "timestamp": 1510876613197,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 193.51040629317586,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:52"
+      },
+      "qos": 0,
+      "timestamp": 1510876614213,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 170.82806140239373,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:53"
+      },
+      "qos": 0,
+      "timestamp": 1510876615451,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 171.3169577128896,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:54"
+      },
+      "qos": 0,
+      "timestamp": 1510876616474,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 172.35529483091025,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:55"
+      },
+      "qos": 0,
+      "timestamp": 1510876617647,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 174.18753363831752,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:56"
+      },
+      "qos": 0,
+      "timestamp": 1510876618760,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 175.26993132915013,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:58"
+      },
+      "qos": 0,
+      "timestamp": 1510876619881,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 172.02242540945062,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:56:59"
+      },
+      "qos": 0,
+      "timestamp": 1510876620946,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 177.01690972368996,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:00"
+      },
+      "qos": 0,
+      "timestamp": 1510876622061,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 175.92400592123576,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:01"
+      },
+      "qos": 0,
+      "timestamp": 1510876623233,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.24720206096225,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:02"
+      },
+      "qos": 0,
+      "timestamp": 1510876624359,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 172.57029817584484,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:03"
+      },
+      "qos": 0,
+      "timestamp": 1510876625431,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 185.3505441555271,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:04"
+      },
+      "qos": 0,
+      "timestamp": 1510876626612,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 174.0508411714807,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:05"
+      },
+      "qos": 0,
+      "timestamp": 1510876627666,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 151.5710435736325,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:06"
+      },
+      "qos": 0,
+      "timestamp": 1510876628841,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 184.084792792615,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:08"
+      },
+      "qos": 0,
+      "timestamp": 1510876629991,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 188.23122001278108,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:09"
+      },
+      "qos": 0,
+      "timestamp": 1510876631031,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 188.42123686039216,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:10"
+      },
+      "qos": 0,
+      "timestamp": 1510876632143,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 167.36916532025845,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:11"
+      },
+      "qos": 0,
+      "timestamp": 1510876633372,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 171.8099763365038,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:12"
+      },
+      "qos": 0,
+      "timestamp": 1510876634257,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 158.4054084856322,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:13"
+      },
+      "qos": 0,
+      "timestamp": 1510876635430,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 165.79180279796705,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:14"
+      },
+      "qos": 0,
+      "timestamp": 1510876636461,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 146.4960870317873,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:15"
+      },
+      "qos": 0,
+      "timestamp": 1510876637673,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 170.23804565225717,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:16"
+      },
+      "qos": 0,
+      "timestamp": 1510876638701,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 169.37160974466767,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:18"
+      },
+      "qos": 0,
+      "timestamp": 1510876639824,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 166.82514470621626,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:19"
+      },
+      "qos": 0,
+      "timestamp": 1510876640972,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 165.15602235083648,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:20"
+      },
+      "qos": 0,
+      "timestamp": 1510876642077,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 164.29028235108734,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:21"
+      },
+      "qos": 0,
+      "timestamp": 1510876643202,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 158.01620516184408,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:22"
+      },
+      "qos": 0,
+      "timestamp": 1510876644341,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 161.41211569690176,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:23"
+      },
+      "qos": 0,
+      "timestamp": 1510876645442,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 188.96616347245873,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:24"
+      },
+      "qos": 0,
+      "timestamp": 1510876646538,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 184.72845358119577,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:25"
+      },
+      "qos": 0,
+      "timestamp": 1510876647662,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 180.18299075176324,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:26"
+      },
+      "qos": 0,
+      "timestamp": 1510876648836,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 180.65542563814682,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:28"
+      },
+      "qos": 0,
+      "timestamp": 1510876649961,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 210.72690413186447,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:29"
+      },
+      "qos": 0,
+      "timestamp": 1510876651088,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 220.95605473713545,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:30"
+      },
+      "qos": 0,
+      "timestamp": 1510876652144,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 221.78903264138197,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:31"
+      },
+      "qos": 0,
+      "timestamp": 1510876653546,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 234.97169044908367,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:32"
+      },
+      "qos": 0,
+      "timestamp": 1510876654376,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 227.33724432272422,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:33"
+      },
+      "qos": 0,
+      "timestamp": 1510876655593,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 210.74713632396052,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:34"
+      },
+      "qos": 0,
+      "timestamp": 1510876656720,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 213.40771205019746,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:35"
+      },
+      "qos": 0,
+      "timestamp": 1510876657848,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 210.19931947142456,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:37"
+      },
+      "qos": 0,
+      "timestamp": 1510876658974,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 213.38885792725918,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:38"
+      },
+      "qos": 0,
+      "timestamp": 1510876660009,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 204.1359458179769,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:39"
+      },
+      "qos": 0,
+      "timestamp": 1510876661124,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 201.4741085257607,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:40"
+      },
+      "qos": 0,
+      "timestamp": 1510876662223,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 197.99366703887273,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:41"
+      },
+      "qos": 0,
+      "timestamp": 1510876663378,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.87958629218335,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:42"
+      },
+      "qos": 0,
+      "timestamp": 1510876664485,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 197.6734799802442,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:43"
+      },
+      "qos": 0,
+      "timestamp": 1510876665583,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.76754049957452,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:44"
+      },
+      "qos": 0,
+      "timestamp": 1510876666756,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 194.96007203399367,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:46"
+      },
+      "qos": 0,
+      "timestamp": 1510876667821,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 206.3327485519446,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:47"
+      },
+      "qos": 0,
+      "timestamp": 1510876669017,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 205.43588377824844,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:48"
+      },
+      "qos": 0,
+      "timestamp": 1510876670060,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 199.45738893307512,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:49"
+      },
+      "qos": 0,
+      "timestamp": 1510876671186,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 199.6717521176944,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:50"
+      },
+      "qos": 0,
+      "timestamp": 1510876672298,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 199.05770206148767,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:51"
+      },
+      "qos": 0,
+      "timestamp": 1510876673430,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 202.50850676576528,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:52"
+      },
+      "qos": 0,
+      "timestamp": 1510876674544,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 200.39418186414494,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:53"
+      },
+      "qos": 0,
+      "timestamp": 1510876675972,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.3287103365269,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:55"
+      },
+      "qos": 0,
+      "timestamp": 1510876676895,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 202.1538901740454,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:56"
+      },
+      "qos": 0,
+      "timestamp": 1510876677918,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 201.3064361862283,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:57"
+      },
+      "qos": 0,
+      "timestamp": 1510876679031,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 199.0278129119144,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:58"
+      },
+      "qos": 0,
+      "timestamp": 1510876680170,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 199.98611279911412,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:57:59"
+      },
+      "qos": 0,
+      "timestamp": 1510876681280,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 202.59955114708424,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:00"
+      },
+      "qos": 0,
+      "timestamp": 1510876682423,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 202.6591774075381,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:01"
+      },
+      "qos": 0,
+      "timestamp": 1510876683653,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 204.1707121197847,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:02"
+      },
+      "qos": 0,
+      "timestamp": 1510876684676,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 197.8524248808945,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:03"
+      },
+      "qos": 0,
+      "timestamp": 1510876685753,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.31924626092143,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:05"
+      },
+      "qos": 0,
+      "timestamp": 1510876686860,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.2233588656998,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:06"
+      },
+      "qos": 0,
+      "timestamp": 1510876688055,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 197.54734400897422,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:07"
+      },
+      "qos": 0,
+      "timestamp": 1510876689161,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 197.8209516361955,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:08"
+      },
+      "qos": 0,
+      "timestamp": 1510876690223,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 197.45928179943834,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:09"
+      },
+      "qos": 0,
+      "timestamp": 1510876691435,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.09284044987592,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:10"
+      },
+      "qos": 0,
+      "timestamp": 1510876692562,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.4455608598993,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:11"
+      },
+      "qos": 0,
+      "timestamp": 1510876693602,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 197.71982426213614,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:12"
+      },
+      "qos": 0,
+      "timestamp": 1510876695080,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 197.99079642435402,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:14"
+      },
+      "qos": 0,
+      "timestamp": 1510876695839,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.12774051732382,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:15"
+      },
+      "qos": 0,
+      "timestamp": 1510876696972,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 198.30439433482053,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:16"
+      },
+      "qos": 0,
+      "timestamp": 1510876698092,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 204.44156981580335,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:17"
+      },
+      "qos": 0,
+      "timestamp": 1510876699177,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 194.5402231866202,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:18"
+      },
+      "qos": 0,
+      "timestamp": 1510876700447,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 193.70363356491276,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:19"
+      },
+      "qos": 0,
+      "timestamp": 1510876701437,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 191.95740290817128,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:20"
+      },
+      "qos": 0,
+      "timestamp": 1510876702556,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 193.6523745981443,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:21"
+      },
+      "qos": 0,
+      "timestamp": 1510876703724,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 191.81754025635925,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:22"
+      },
+      "qos": 0,
+      "timestamp": 1510876704851,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 191.45537379830841,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:24"
+      },
+      "qos": 0,
+      "timestamp": 1510876705981,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 190.18953334437202,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:25"
+      },
+      "qos": 0,
+      "timestamp": 1510876707103,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 193.41656793046454,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:26"
+      },
+      "qos": 0,
+      "timestamp": 1510876708229,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 192.1970627702203,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:27"
+      },
+      "qos": 0,
+      "timestamp": 1510876709296,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 189.74155943018914,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:28"
+      },
+      "qos": 0,
+      "timestamp": 1510876710483,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 190.42412572006205,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:29"
+      },
+      "qos": 0,
+      "timestamp": 1510876711609,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 189.4780453970855,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:30"
+      },
+      "qos": 0,
+      "timestamp": 1510876712736,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 188.82171650792714,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:31"
+      },
+      "qos": 0,
+      "timestamp": 1510876714068,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 190.4170587158619,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:33"
+      },
+      "qos": 0,
+      "timestamp": 1510876714886,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 191.01627875654995,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:34"
+      },
+      "qos": 0,
+      "timestamp": 1510876716012,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 192.47293843875818,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:35"
+      },
+      "qos": 0,
+      "timestamp": 1510876717140,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 192.43833224893112,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:36"
+      },
+      "qos": 0,
+      "timestamp": 1510876718265,
+      "topic": "/device/mobile/emf"
+    },
+    {
+      "format": "json",
+      "payload": {
+        "emfValue": 190.74952899679727,
+        "deviceID": "b5009138-04da-474c-9e2b-a45ef8ce667f",
+        "dateTime": "2017-11-17 06:58:37"
+      },
+      "qos": 0,
+      "timestamp": 1510876719392,
+      "topic": "/device/mobile/emf"
+    }
+  ],
+  "qos": 0,
+  "topicFilter": "/device/mobile/emf"
+}
