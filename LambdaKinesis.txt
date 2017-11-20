@@ -26,7 +26,11 @@ def lambda_handler(event, context):
    
     #Warning levels code here: based on EMF scale -> Slight concern, Concern
     f_highesEMF = sensorarray['HIGHESTEMF']
-    emfThreadshold = 210.00  # define the EMF value which is above the safe level
+    if f_highesEMF is None:
+        f_highesEMF = 0
+    print('f_highesEMF')
+    print(f_highesEMF)
+    emfThreadshold = 200.00  # define the EMF value which is above the safe level
     
     
     #Do custom processing on the payload here
@@ -41,6 +45,23 @@ def lambda_handler(event, context):
                 topic='/device/mobile/alert',qos=0,
                 payload=json.dumps(datamessage)
         ) 
+
+ ------------------------------------
+ -- TESTING
  
+ {
+  "Records": [
+    {
+      "eventID": "49546986683135544286507457936321625675700192471156785154",
+      "kinesis": {
+        "data": "eyJTRU5TT1JJRCI6Im51bGwiLCJEQVRFVElNRSI6IjIwMTctMTEtMTUgMTI6MTk6MDAuMDAwIiwiSElHSEVTVEVNRiI6bnVsbCwiTE9XRVNURU1GIjpudWxsfQ==",
+        "approximateArrivalTimestamp": "2012-04-23T18:25:43.511Z"
+      }
+    }
+  ],
+  "region": "us-east-1",
+  "deliveryStreamArn": "arn:aws:kinesis:EXAMPLE",
+  "invocationId": "invocationIdExample"
+}
 
     
