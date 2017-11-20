@@ -25,18 +25,22 @@ def lambda_handler(event, context):
     sensorId = sensorarray['SENSORID']
    
     #Warning levels code here: based on EMF scale -> Slight concern, Concern
-    #sensorarray['HIGHESTEMF']
+    f_highesEMF = sensorarray['HIGHESTEMF']
+    emfThreadshold = 210.00  # define the EMF value which is above the safe level
+    
     
     #Do custom processing on the payload here
-    datamessage = {}
-    datamessage['alertMessage'] = 'Warning, EMF is overvalue:' + sensorEMFValue
-    datamessage['DateTime'] = sensorDateTime
-    datamessage['SENSORID'] = sensorId
-    
-    print(datamessage)
-    response = iot.publish(
-            topic='/device/mobile/alert',qos=0,
-            payload=json.dumps(datamessage)
-    ) 
+    if f_highesEMF > emfThreadshold:
+        datamessage = {}
+        datamessage['alertMessage'] = 'Warning, EMF is overvalue, greater than safe value:' + sensorEMFValue
+        datamessage['DateTime'] = sensorDateTime
+        datamessage['SENSORID'] = sensorId
+        
+        print(datamessage)
+        response = iot.publish(
+                topic='/device/mobile/alert',qos=0,
+                payload=json.dumps(datamessage)
+        ) 
+ 
 
-  
+    
